@@ -1,0 +1,45 @@
+
+:root {
+  --background-color: #061830;
+  --primary-color: #00FFEF;
+}
+
+.App {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentContainer {
+  display: flex;
+  flex-flow: row;
+  width: inherit;
+  height: inherit;
+
+}
+
+.customScrollBar {
+  width: 90px;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  
+  background-color: red;
+}
+
+.customScrollSectionCont {
+  flex: 1 1 auto;
+  background-color: green;
+}
+
+.customScrollerCont {
+  width: 20px;
+  height: inherit;
+  background-color: yellow;
+}
+
+.scrollBarSectionItem {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
